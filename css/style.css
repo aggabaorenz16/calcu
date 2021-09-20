@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+body {
+    background-color: rgb(209, 195, 195);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    place-items: center;
+}
+input,button {
+    margin: 1rem;
+    padding: 1rem;
+    outline: none;
+    font-size: 25px;
+    border: none;
+}
+input {
+    border-radius: 5px;
+}
+button {
+    background-color: rgb(28, 56, 212);
+    border-radius: 10px;
+    color: white;
+    width: 14%;
+    height: 100px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    transition: ease 0.5s;
+}
+/* @media screen and (max-width: 320px) {
+    input {
+        width: 50%;
+    }
+} */
